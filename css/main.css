@@ -1,0 +1,360 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.block {
+	font-size: 20px;
+	width: 120px;
+	height: 120px;
+	background: green;
+}
+
+
+
+.name {
+	color: blue;
+}
+
+.lane {
+	margin-top: 90px;
+}
+
+.section {
+	font-size: 18px;
+	color: yellow;
+	background: red;
+	height: 10px;
+	padding:20px;
+}
+
+.question {
+	font-size: 23px;
+	color: yellow;
+	background: purple;
+	height: 35px;
+	padding-left:23px;
+	padding-top: 10px;
+}
+
+.main {
+	padding-left: 60px;
+}
+
+.phone {
+	padding-left: 150px;
+}
+
+.list li{
+	font-size: 20px;
+	border: 2px solid red;
+	border-top:: 2px solid red;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	border-bottom: 2px solid red; 
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}	
+
+.header {
+	font-size:18px;
+	background: #c5deea; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #c5deea 0%, #8abbd7 31%, #066dab 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #c5deea 0%,#8abbd7 31%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #c5deea 0%,#8abbd7 31%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-bottom: 95px;
+	padding-top: 100px;
+	font-size:18px;
+	color: #fff
+
+}
+
+.desktop {
+	margin-top: 102px;
+}
+
+.wrapper {
+	align-items:center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.offer {
+	width: 490px;
+	
+}
+
+.btn:hover {
+	background: #bf7408
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin:0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 900;
+}
+
+
+p {
+	line-height: 1.65em;
+}
+
+.title {
+	font-size: 36px;
+
+}
+
+.title span {
+	color: #48ed8e;
+
+}
+
+.intro {
+	margin-bottom: 37px;
+	width: 380px;
+	margin-top: 30px;
+}
+
+
+.red {
+	color: red;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ed9619;
+	color: #fff;
+	border-radius: 25px;
+	display: block;
+	width: 204px;
+	padding: 20px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+
+}
+
+.btn-btn {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ed9619;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 205px;
+	padding-top: 170px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+
+}
+
+.learn {
+	padding-top: 108px;
+	padding-bottom: 120px;
+
+}
+
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+
+
+
+
+.skills{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.skill {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 0;
+}
+
+
+.skill-title {
+	font-size: 18px;
+}
+
+.skill-text {
+	margin-top: 7px;
+}
+
+.skill-free {
+	width: 380px;
+	background: url('../img/icopng') no-repeat left top;
+}
+
+.skill-change {
+	background: url('../img/icojpg') no-repeat left top;
+}
+
+.mail {
+	background: #efecf4;
+	padding-top: 173px;
+	padding-bottom: 190px;
+
+}
+
+.input {
+	margin: 0 auto;
+	display: block;
+	width: 300px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	border-radius: 0px;
+	height: 54px;
+	padding-left: 38px;
+	padding-right: 38px;
+	margin-top: 30px;
+}
+
+.form {
+	margin-top: 50px;
+
+}
+
+.intro:hover {
+	size: 300px;
+	transition: all 0.5s ease;
+}	
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	margin-left: 11px;
+	margin-top: 20px;
+}
+
+.credits {
+	color: #fff;
+	font-size: 14px;
+}
+
+.footer {
+	background: #226ba6;
+	padding: 33px 0px;
+}
+
+.photo {
+	float: top; /* Выравнивание по правому краю */
+	padding-bottom: 20px; 
+}
+	
+.red {
+	color: red;
+}	
+
+/*Responsive*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+
+
+	}
+		.wrapper {
+			flex-direction: column;
+
+		}
+		.offer {
+			width: 100%;
+		}
+		.intro {
+			width: auto;
+		}
+		.desktop {
+			display: block;
+			width: 1000;
+			margin: 72px auto 0;
+		}
+		.skills {
+			flex-direction: column;
+		}
+		.skill {
+			width: auto;
+			margin-bottom: 20px;
+		}
+
+	.logo {
+		align-items: top;
+		margin-bottom: 10px;
+		}
+}	
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 720px;
+
+	}
+	.intro {
+		width: 90%;
+		padding-left: 15px;
+	}
+	.btn {
+		margin-left: 10px;
+		
+	}
+	.title {
+		width: 90%;
+		padding-left: 15px;
+	}
+	
+}	
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+
+	}
+	.desktop {
+		width: 0px;
+	}
+	.btn {
+		width: 90%;
+		margin-left: 10px;
+	}
+	.input {
+		width: 70%;
+	}
+}	
+ 
+ /*320px - 576px*/ 
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+
+	}
+	.desktop {
+		width: 0;
+	}
+		}
+	
+}	
+
+
+
+
+селектор {
+	свойство: значение;
+	свойство: значение;
+	свойство: значение;
+	свойство: значение;
+	...
+	свойство: значение;
+}
